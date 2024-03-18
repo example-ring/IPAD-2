@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Black Han Sans', sans-serif;
+	font-family: 'Do Hyeon', sans-serif;
+	font-family: 'Gothic A1', sans-serif;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+@font-face {
+	font-family: 'GangwonEdu_OTFBoldA';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'JalnanGothic';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	text-decoration-line: none;
+}
+
+ul {
+	list-style: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* nav(header) */
+
+nav {
+	background-color: white;
+	border-bottom: 1px solid lightgray;
+}
+
+#loginBtn {
+	background-color: darkgray;
+}
+
+#okagree {
+	
+	background-color: darkgray;
+	border: none;
+}
+
+#okagree {
+	
+	border: none;
+}
+

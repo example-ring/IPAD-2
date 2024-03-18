@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Black Han Sans', sans-serif;
+	font-family: 'Do Hyeon', sans-serif;
+	font-family: 'Gothic A1', sans-serif;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+@font-face {
+	font-family: 'GangwonEdu_OTFBoldA';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'JalnanGothic';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	text-decoration-line: none;
+}
+
+ul {
+	list-style: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* nav(header) */
+
+nav {
+	background-color: white;
+	border-bottom: 1px solid lightgray;
+}
+
+#loginBtn {
+	background-color: darkgray;
+}
+
+.form-find {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-find .form-group:focus-within {
+  z-index: 2;
+}
+
+.form-find input[type="name"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-find input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.custom-input-group {
+    
+    border: 1px solid red;
+    width: 100%; 
+    margin: 0 auto; 
+}
+
