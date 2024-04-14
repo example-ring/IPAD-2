@@ -1,0 +1,10 @@
+nav {
+	background-color: white;
+	border-bottom: 1px solid lightgray;
+	font-family: 'Black Han Sans', sans-serif;
+}
+
+#loginBtn {
+	background-color: darkgray;
+	font-family: 'Black Han Sans', sans-serif;
+}
